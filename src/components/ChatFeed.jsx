@@ -48,7 +48,7 @@ const ChatFeed = (props) => {
    
     <div className="chat-feed">
       <div className="chat-title-container">
-        <a className="videobutton" href="https://unfurling-meet.herokuapp.com/"><FontAwesomeIcon icon={faVideo}/></a>
+        <a className="videobutton" href="https://unfurling-meet.herokuapp.com/" target="_blank"  rel="noopener noreferrer" ><FontAwesomeIcon icon={faVideo}/></a>
         <div className="chat-title">{chat?.title}</div>
         <div className="chat-subtitle">
           <div></div>
